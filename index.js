@@ -47,6 +47,7 @@ function checkRepeatClock() {
         } else {
           console.log("1、检测重复打卡-今日已打卡");
           console.log("2、打卡成功");
+	  sendNotification("今日已经打卡");
           return;
         }
       } else {
